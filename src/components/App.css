@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  padding: 1em;
+  background-color: rgb(54,57,63);
+  color: white;
 }
 
 .App-logo {
@@ -11,10 +13,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: flex;  
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -30,4 +29,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul{
+  margin: 2.5em 0;
+}
+
+.AtomsCheatSheet .description{
+  font-style: italic;
+}
+
+.AtomsCheatSheet li span{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1.5em;
+}
+
+.AtomsCheatSheet li{
+  height: 100%;
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.avatar-atoms{
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
+
+.avatar-atoms_new_message{
+  border-radius: 25%;
+  width: 3em;
+  height: 3em;
 }
