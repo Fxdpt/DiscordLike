@@ -1,0 +1,15 @@
+Atoms:
+  Icons:
+    Round for avatar & server
+    navigation icons
+
+
+Molecules:
+  Users:
+    avatar + name + status
+
+  Servers:
+    avatar + status
+
+Organisms:
+    
