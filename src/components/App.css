@@ -52,6 +52,21 @@ ul{
   margin-bottom: 1.5em;
 }
 
+#iconList{
+  display: flex;
+}
+
+#iconList li{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: center;
+}
+
+#iconList li svg{
+  margin: 0 auto;
+}
+
 .avatar-atoms{
   border-radius: 50%;
   width: 3em;
