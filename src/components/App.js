@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
+import AtomsCheatSheet from "./atoms/AtomsCheatSheet"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import {faAngleDown, faHashtag, faVolumeUp, faLock} from '@fortawesome/free-solid-svg-icons'
-import AtomsCheatSheet from "./atoms/AtomsCheatSheet"
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
-
-library.add(fab, faAngleDown,faHashtag, faVolumeUp, faLock)
+library.add(fab, fas)
 
 
 

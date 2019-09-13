@@ -32,6 +32,75 @@ function AtomsCheatSheet() {
           <li>
             <FontAwesomeIcon icon="lock" /><span><strong>icon = "lock"</strong></span>
           </li>
+          <li>
+            <FontAwesomeIcon icon="microphone-slash" /><span><strong>icon = "microphone-slash"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="headphones-alt" /><span><strong>icon = "headphones-alt"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="cog" /><span><strong>icon = "cog"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="plus-circle" /><span><strong>icon = "plus-circle"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="gift" /><span><strong>icon = "gift"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="gift" /><span><strong>icon = "gift"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="bell" /><span><strong>icon = "bell"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="thumbtack" /><span><strong>icon = "thumbtack"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="users" /><span><strong>icon = "users"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="search" /><span><strong>icon = "search"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="at" /><span><strong>icon = "at"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="question-circle" /><span><strong>icon = "question-circle"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="user-plus" /><span><strong>icon = "user-plus"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="shield-alt" /><span><strong>icon = "shield-alt"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="pen" /><span><strong>icon = "pen"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="eye-slash" /><span><strong>icon = "eye-slash"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="arrow-circle-left" /><span><strong>icon = "arrow-circle-left"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="gamepad" /><span><strong>icon = "gamepad"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="box-open" /><span><strong>icon = "box-open"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="user-check" /><span><strong>icon = "user-check"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="phone-volume" /><span><strong>icon = "phone-volume"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="video" /><span><strong>icon = "video"</strong></span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon="plus" /><span><strong>icon = "plus"</strong></span>
+          </li>
         </ul>
       </div>
     </div>
