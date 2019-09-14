@@ -1,6 +1,6 @@
 .App {
   padding: 1em;
-  background-color: rgb(54,57,63);
+  background-color: rgb(32,34,37);
   color: white;
 }
 
@@ -58,6 +58,14 @@ ul{
   
 }
 
+.circleWrap{
+  border-radius: 50%;
+}
+
+.squareWrap{
+  border-radius: 25%;
+}
+
 #iconList li{
   display: flex;
   flex-direction: column;
@@ -70,14 +78,21 @@ ul{
   margin: 0 auto;
 }
 
-.avatar-atoms{
-  border-radius: 50%;
+.avatar-atoms, .ServerControl{
+  
   width: 3em;
   height: 3em;
 }
 
-.avatar-atoms_new_message{
-  border-radius: 25%;
-  width: 3em;
-  height: 3em;
+.ServerControl{
+  background-color: rgb(54,57,63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(67,181,129);
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
 }
