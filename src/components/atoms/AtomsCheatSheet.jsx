@@ -1,6 +1,7 @@
 import React from 'react'
 import Avatar from './Avatar'
 import ServerControl from './ServerControl'
+import Username from './Username'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function AtomsCheatSheet() {
@@ -14,10 +15,25 @@ function AtomsCheatSheet() {
             <p className="description">Props: url(string, required) / username(string,required)</p>
             <ul>
               <li>
-                <Avatar url="https://www.placecage.com/100/100" username="Nicolas Cage" className="avatar-atoms circleWrap"></Avatar><span><strong>className = "avatar-atoms circleWrap"</strong></span>
+                <Avatar url="https://www.placecage.com/100/100" username="Nicolas Cage" className="avatar-atoms circleWrap"/><span><strong>className = "avatar-atoms circleWrap"</strong></span>
               </li>
               <li>
-                <Avatar url="https://www.placecage.com/100/100" username="Nicolas Cage" className="avatar-atoms squareWrap"></Avatar><span><strong>className = "avatar-atoms squareWrap"</strong></span>
+                <Avatar url="https://www.placecage.com/100/100" username="Nicolas Cage" className="avatar-atoms squareWrap"/><span><strong>className = "avatar-atoms squareWrap"</strong></span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Username</h3>
+            <p className="description">Props: username(string, required) / color(string,optional) / size(string,optional) / status(string,optional)</p>
+            <ul>
+              <li>
+                <Username username="Fxdpt" color="orange" size="small" /><span><strong>className = "Username" color = "orange" size="small"</strong></span>
+              </li>
+              <li>
+                <Username username="Reactor" color="green" size="small" status="offline" /><span><strong>className = "Username" color = "green" size="small" status="offline"</strong></span>
+              </li>
+              <li>
+                <Username username="DaytonaJoe" color="purple" size="medium" /><span><strong>className = "Username" color = "purple" size="medium"</strong></span>
               </li>
             </ul>
           </div>
@@ -26,10 +42,10 @@ function AtomsCheatSheet() {
             <p className="description">Props: className(string, required) / icon(string,required)</p>
             <ul>
               <li>
-                <ServerControl icon="search" className="circleWrap"></ServerControl><span><strong>className = "ServerControl circleWrap"</strong></span>
+                <ServerControl icon="search" className="circleWrap"/><span><strong>className = "ServerControl circleWrap"</strong></span>
               </li>
               <li>
-                <ServerControl icon="plus" className="squareWrap"></ServerControl><span><strong>className = "ServerControl squareWrap"</strong></span>
+                <ServerControl icon="plus" className="squareWrap"/><span><strong>className = "ServerControl squareWrap"</strong></span>
               </li>
             </ul>
           </div>
