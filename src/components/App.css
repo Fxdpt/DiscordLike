@@ -119,6 +119,10 @@ ul{
   font-size: 1em
 }
 
+.large{
+  font-size: 1.5em
+}
+
 .offline{
   font-weight: normal;
 }

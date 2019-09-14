@@ -30,10 +30,10 @@ function AtomsCheatSheet() {
                 <Username username="Fxdpt" color="orange" size="small" /><span><strong>className = "Username" color = "orange" size="small"</strong></span>
               </li>
               <li>
-                <Username username="Reactor" color="green" size="small" status="offline" /><span><strong>className = "Username" color = "green" size="small" status="offline"</strong></span>
+                <Username username="Reactor" color="green" size="medium" status="offline" /><span><strong>className = "Username" color = "green" size="medium" status="offline"</strong></span>
               </li>
               <li>
-                <Username username="DaytonaJoe" color="purple" size="medium" /><span><strong>className = "Username" color = "purple" size="medium"</strong></span>
+                <Username username="DaytonaJoe" color="purple" size="large" /><span><strong>className = "Username" color = "purple" size="large"</strong></span>
               </li>
             </ul>
           </div>
